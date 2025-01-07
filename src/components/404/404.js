@@ -6,7 +6,7 @@ const Error = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
-
+// test
     return (
         <section className="error-404-section section-padding">
             <div className="container">
