@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 import Homepage from '../HomePage/HomePage'
-import HomePage2 from '../HomePage2/HomePage2';
-import HomePage3 from '../HomePage3/HomePage3';
 import AboutCompanyPage from '../AboutCompanyPage/AboutCompanyPage';
 import AboutPage from '../AboutPage/AboutPage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
@@ -28,7 +26,6 @@ import BlogDetails from '../BlogDetails/BlogDetails'
 import BlogDetailsFull from '../BlogDetailsFull/BlogDetailsFull'
 import BlogDetailsLeftSiide from '../BlogDetailsLeftSiide/BlogDetailsLeftSiide'
 import ContactPage from '../ContactPage/ContactPage';
-import ErrorPage from '../ErrorPage/ErrorPage';
 import FaqPage from '../FaqPage';
 
 
@@ -40,8 +37,6 @@ const AllRoute = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
-          <Route path="home-2" element={<HomePage2 />} />
-          <Route path="home-3" element={<HomePage3 />} />
           <Route path="about" element={<AboutCompanyPage />} />
           <Route path="about-me" element={<AboutPage />} />
           <Route path="services" element={<PracticePage />} />
@@ -55,7 +50,6 @@ const AllRoute = () => {
           <Route path="testimonials" element={<TestimonialPage />} />
           <Route path="testimonials-s2" element={<TestimonialPage2 />} />
           <Route path="faq" element={<FaqPage />} />
-          <Route path='404' element={<ErrorPage />} />
           <Route path="shop" element={<ShopPage />} />
           <Route path='product-single/:slug' element={<ProductSinglePage/>} />
           <Route path='cart' element={<CartPage/>} />

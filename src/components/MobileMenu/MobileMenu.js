@@ -16,16 +16,6 @@ const menus = [
                 title: 'Home style 1',
                 link: '/home'
             },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home-2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home-3'
-            }
         ]
     },
 
@@ -44,11 +34,7 @@ const menus = [
                 title: 'About Me',
                 link: '/about-me'
             },
-            {
-                id: 322,
-                title: 'Testimonials',
-                link: '/testimonials'
-            },
+
             {
                 id: 33,
                 title: 'Testimonials Style 2',
@@ -68,11 +54,6 @@ const menus = [
                 id: 35,
                 title: 'FAQ',
                 link: '/faq'
-            },
-            {
-                id: 36,
-                title: '404',
-                link: '/404'
             },
             {
                 id: 36,
