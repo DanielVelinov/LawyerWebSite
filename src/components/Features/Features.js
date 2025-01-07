@@ -13,7 +13,7 @@ const Features = (props) => {
                 <div className="row">
                     <div className="col col-lg-3 col-md-6 col-12">
                         <div className="info-col">
-                            <h4>Some few stpes that you need to get the best services from juristic</h4>
+                            <h4>Some few stpes that you need to get the best services from Ekaterina Dimitrova</h4>
                             <Link onClick={ClickHandler} to="/contact" className="theme-btn-s2">Contact with us</Link>
                         </div>
                     </div>

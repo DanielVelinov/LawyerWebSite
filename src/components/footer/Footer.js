@@ -114,7 +114,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="separator"></div>
                         <div className="col col-xs-12">
-                            <p className="copyright">Copyright &copy; 2023 Juristic. All rights reserved.</p>
+                            <p className="copyright">Copyright &copy; 2025 Ekaterina Dimitrova. All rights reserved.</p>
                             <div className="extra-link">
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/contact">Privace & Policy</Link></li>

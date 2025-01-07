@@ -19,7 +19,7 @@ const About = (props) => {
                                 <div className="icon">
                                     <i className="fi flaticon-home-3"></i>
                                 </div>
-                                <span>About juristic</span>
+                                <span>About Ekaterina Dimitrova</span>
                                 <h2>We are the most populer law firm with various law services!</h2>
                                 <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum</p>
                                 <Link onClick={ClickHandler} to="/about" className="more-about">Read More About us <i className="fi flaticon-next-1"></i></Link>

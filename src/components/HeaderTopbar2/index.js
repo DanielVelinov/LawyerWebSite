@@ -11,7 +11,7 @@ const HeaderTopbar2 = (props) => {
                         <div className="contact-info">
                             <ul className="clearfix">
                                 <li><i className="ti-mobile"></i> +3245-354-6474</li>
-                                <li><i className="ti-email"></i> juristice@example.com</li>
+                                <li><i className="ti-email"></i> ekaterinadimitrova@gmail.com</li>
                                 <li><i className="ti-location-pin"></i> 324 Modern Ave, Sacramento, MD 92347, Austria</li>
                             </ul>
                         </div>

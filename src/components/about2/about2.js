@@ -17,7 +17,7 @@ const About2 = (props) => {
                     <div className="col col-lg-4 col-12">
                         <div className="left-col">
                             <div className="section-title-s5">
-                                <span>About juristic</span>
+                                <span>About Ekaterina Dimitrova</span>
                                 <h2>Do You Need the Top Lawyers From us?</h2>
                                 <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc</p>
                                 <Link onClick={ClickHandler} to="/about" className="theme-btn">Explore More</Link>
