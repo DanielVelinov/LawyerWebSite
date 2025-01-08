@@ -86,7 +86,7 @@ const Footer = (props) => {
                                 </ul>
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/contact">Политика за поверителност</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/testimonials">Отзиви</Link></li>
+
                                     <li><Link onClick={ClickHandler} to="/blog">Новини</Link></li>
                                     <li><Link onClick={ClickHandler} to="/faq">ЧЗВ</Link></li>
                                 </ul>

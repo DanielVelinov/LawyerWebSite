@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { totalPrice } from "../../utils";
 import { connect } from "react-redux";
-import { removeFromCart } from "../../store/actions/action";
 import Logo from '../../images/logo-2.png'
 import HeaderTopbar from '../HeaderTopbar';
 
@@ -37,8 +36,6 @@ const Header2 = (props) => {
                                 <Link onClick={ClickHandler} to="/">Home</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/home">Home Default</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/home-2">Home Style 2</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/home-3">Home Single Lawyer</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
@@ -46,29 +43,18 @@ const Header2 = (props) => {
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/about">About Company</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about-me">About Me</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/testimonials">Testimonials</Link></li>
                                     <li><Link onClick={ClickHandler} to="/testimonials-s2">Testimonials Style 2</Link></li>
                                     <li><Link onClick={ClickHandler} to="/team">Team</Link></li>
                                     <li><Link onClick={ClickHandler} to="/attorneys-single/Michel-Troat">Team Single</Link></li>
                                     <li><Link onClick={ClickHandler} to="/faq">FAQ</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/404">404</Link></li>
                                     <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                 </ul>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <Link onClick={ClickHandler} to="/">Shop</Link>
-                                <ul className="sub-menu">
-                                    <li><Link onClick={ClickHandler} to="/shop">Shop</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/product-single/Ninja-Hoodi">Shop Single</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/cart">Cart</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/checkout">Checkout</Link></li>
-                                </ul>
+
                             </li>
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} to="/">Services</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/services">Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/services-s2">Service Style 2</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Business-Law">Business Law</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Family-Law">Family Law</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Real-Estate-Law">Real State Law</Link></li>

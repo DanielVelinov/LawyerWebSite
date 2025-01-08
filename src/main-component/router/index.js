@@ -8,12 +8,12 @@ import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import TestimonialPage2 from '../TestimonialPage2/TestimonialPage2';
 import AttorneysPage from '../AttorneysPage/AttorneysPage';
 import PracticePage from '../PracticePage/PracticePage';
-import PracticePageS2 from '../PracticePageS2/PracticePageS2';
+
 import PracticeSinglePage from '../PracticeSinglePage/PracticeSinglePage';
 import CaseSinglePage from '../CaseSinglePage/CaseSinglePage';
 import AttorneySinglePage from '../AttorneySinglePage/AttorneySinglePage';
 import CasePage from '../CasePage/CasePage';
-import CasePageS2 from '../CasePageS2/CasePageS2';
+
 
 import BlogPage from '../BlogPage/BlogPage'
 import BlogPageLeft from '../BlogPageLeft/BlogPageLeft'
@@ -36,9 +36,7 @@ const AllRoute = () => {
           <Route path="about" element={<AboutCompanyPage />} />
           <Route path="about-me" element={<AboutPage />} />
           <Route path="services" element={<PracticePage />} />
-          <Route path="services-s2" element={<PracticePageS2 />} />
           <Route path="case-studies" element={<CasePage />} />
-          <Route path="case-studies-s2" element={<CasePageS2 />} />
           <Route path="practice-single/:slug" element={<PracticeSinglePage />} />
           <Route path="case-single/:slug" element={<CaseSinglePage />} />
           <Route path="team" element={<AttorneysPage />} />

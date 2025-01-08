@@ -4,7 +4,7 @@ import MobileMenu from '../MobileMenu/MobileMenu'
 import HeaderTopbar2 from '../HeaderTopbar2';
 import { totalPrice } from "../../utils";
 import { connect } from "react-redux";
-import { removeFromCart } from "../../store/actions/action";
+
 import Logo from '../../images/logo-3.png'
 
 
@@ -57,7 +57,6 @@ const Header3 = (props) => {
                                 <Link onClick={ClickHandler} to="/">Services</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} to="/services">Services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/services-s2">Service Style 2</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Business-Law">Business Law</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Family-Law">Family Law</Link></li>
                                     <li><Link onClick={ClickHandler} to="/practice-single/Real-Estate-Law">Real State Law</Link></li>
