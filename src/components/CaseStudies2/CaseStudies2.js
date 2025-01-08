@@ -1,10 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Cases from '../../api/case';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 const settings = {
     dots: false,
@@ -59,13 +58,11 @@ const settings = {
     ]
 };
 
-
 const CaseStudies2 = (props) => {
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
-    }
-
+    };
 
     return (
         <section className={`case-studies-section-s2 section-padding ${props.cClass}`}>
@@ -73,9 +70,9 @@ const CaseStudies2 = (props) => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-6 col-md-8">
                         <div className="section-title-s6">
-                            <span>Here Our Best Work</span>
-                            <h2>Recent Case Studies</h2>
-                            <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sit amet adipiscing</p>
+                            <span>Нашите най-добри проекти</span>
+                            <h2>Последни проучвания на случаи</h2>
+                            <p>Маеценас темпус, теллус егет кондиментум ронкус, сем куам семпер либеро сит амет адиписцинг.</p>
                         </div>
                     </div>
                 </div>
@@ -90,9 +87,9 @@ const CaseStudies2 = (props) => {
                                 </div>
                                 <div className="overlay">
                                     <div className="content">
-                                        <p className="cat">Law service</p>
+                                        <p className="cat">Правни услуги</p>
                                         <h3><Link onClick={ClickHandler} to={`/case-single/${cases.slug}`}>{cases.cTitle}</Link></h3>
-                                        <p>Covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window</p>
+                                        <p>Покриваше цялата долна част на ръката ѝ към зрителя. След това Грегор се обърна към прозореца.</p>
                                         <Link onClick={ClickHandler} to={`/case-single/${cases.slug}`}><i className="ti-arrow-circle-right"></i></Link>
                                     </div>
                                 </div>
@@ -103,6 +100,6 @@ const CaseStudies2 = (props) => {
             </div>
         </section>
     );
-}
+};
 
 export default CaseStudies2;

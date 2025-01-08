@@ -9,7 +9,7 @@ const ContactPage =() => {
     return(
         <Fragment>
             <Navbar hclass={'wpo-header-style-5'} topbarClass={'tb-block'}/>
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
+            <PageTitle pageTitle={'Свържете се с нас'} pagesub={'Contact'}/> 
             <Contactpage/>
             <Footer/>
             <Scrollbar/>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ContactFrom from '../ContactFrom';
 
 const Contactpage = (props) => {
@@ -11,23 +11,23 @@ const Contactpage = (props) => {
                             <ul>
                                 <li>
                                     <i className="fi flaticon-home-3"></i>
-                                    <h4>Head Office</h4>
-                                    <p>54, Dahs udin sorok, Melborn Austria</p>
+                                    <h4>Централен офис</h4>
+                                    <p>София, бул. Витоша №43, ет. 3, ап. 1</p>
                                 </li>
                                 <li>
                                     <i className="fi flaticon-email"></i>
-                                    <h4>Email Address</h4>
-                                    <p>demo@example.com</p>
+                                    <h4>Имейл адрес</h4>
+                                    <p>ekaterinadimitrova@gmail.com</p>
                                 </li>
                                 <li>
                                     <i className="fi flaticon-support"></i>
-                                    <h4>Telephone</h4>
-                                    <p>654756175+5474</p>
+                                    <h4>Телефон</h4>
+                                    <p>+3598705647</p>
                                 </li>
                                 <li>
                                     <i className="fi flaticon-clock"></i>
-                                    <h4>Office Hour</h4>
-                                    <p>Mon-Sun: 10am – 7pm</p>
+                                    <h4>Работно време</h4>
+                                    <p>Пон-Събота: 10:00 – 19:00</p>
                                 </li>
                             </ul>
                         </div>
@@ -37,9 +37,9 @@ const Contactpage = (props) => {
                             <div className="icon">
                                 <i className="fi flaticon-balance"></i>
                             </div>
-                            <span>Contact form</span>
+                            <span>Пишете Ни</span>
                             <h2>Need Consultancy, <br />Request A Free Quote</h2>
-                            <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nuncIt showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy</p>
+                            <p>Наш сътрудник ще отговори на всички получени запитвания...</p>
                         </div>
 
                         <div className="contact-form">
@@ -50,7 +50,11 @@ const Contactpage = (props) => {
             </section>
             <section className="contact-map-section section-padding pb-0">
                 <div className="contact-map">
-                    <iframe title='contact-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671" allowfullscreen></iframe>
+                    <iframe 
+                        title="contact-map" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.2618669733043!2d23.317566316148667!3d42.69563797916759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa858183aa365f%3A0x2d093b9a3b52e15a!2sBulgaria%2C%20Sofia%2C%20Vitosha%20Blvd%2043%2C%20et.%203%2C%20ap.%201!5e0!3m2!1sen!2sbg!4v1681234567890" 
+                        allowFullScreen>
+                    </iframe>
                 </div>
             </section>
         </div>

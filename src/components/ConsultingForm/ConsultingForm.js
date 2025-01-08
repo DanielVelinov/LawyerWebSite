@@ -49,7 +49,7 @@ const ConsultingForm = () => {
                     className="form-control"
                     onBlur={(e) => changeHandler(e)}
                     onChange={(e) => changeHandler(e)}
-                    placeholder="Name*" />
+                    placeholder="Име*" />
                 {validator.message('name', forms.name, 'required|alpha_space')}
             </div>
             <div className="form-field">
@@ -71,7 +71,7 @@ const ConsultingForm = () => {
                     className='form-control'
                     onBlur={(e) => changeHandler(e)}
                     onChange={(e) => changeHandler(e)}
-                    placeholder="Your phone" />
+                    placeholder="Телфонен номер" />
                 {validator.message('phone', forms.phone, 'required|phone')}
             </div>
             <div className="form-field">
@@ -83,11 +83,11 @@ const ConsultingForm = () => {
                     className='form-control'
                     name="subject">
                     <option disabled="disabled">Contact subject</option>
-                    <option>Family Law</option>
-                    <option>Personal Injury</option>
-                    <option>Criminal Law</option>
-                    <option>Education Law</option>
-                    <option>Business Law</option>
+                    <option>Семейно Право</option>
+                    <option>Лични Наранявания</option>
+                    <option>Наказателно Право</option>
+                    <option>Закон за Образование</option>
+                    <option>Бизнес Право</option>
                 </select>
                 {validator.message('subject', forms.subject, 'required')}
             </div>
@@ -99,12 +99,12 @@ const ConsultingForm = () => {
                     type="text"
                     name="message"
                     className='form-control'
-                    placeholder="Case Description...">
+                    placeholder="Описание на слуая...">
                 </textarea>
                 {validator.message('message', forms.message, 'required')}
             </div>
             <div className="submit-area">
-                <button type="submit" className="theme-btn-s3">Submit It Now</button>
+                <button type="submit" className="theme-btn-s3">Изпрати</button>
             </div>
         </form>
     )

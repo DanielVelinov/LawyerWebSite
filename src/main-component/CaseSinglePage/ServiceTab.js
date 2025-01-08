@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
-
 const ServiceTab = (props) => {
     const [activeTab, setActiveTab] = useState('1');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
-    }
+    };
 
     return (
         <div className="project-single-tab clearfix">
@@ -19,7 +18,7 @@ const ServiceTab = (props) => {
                             className={classnames({ active: activeTab === '1' })}
                             onClick={() => { toggle('1'); }}
                         >
-                            Challenge
+                            Предизвикателство
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -27,7 +26,7 @@ const ServiceTab = (props) => {
                             className={classnames({ active: activeTab === '2' })}
                             onClick={() => { toggle('2'); }}
                         >
-                            Solution
+                            Решение
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -35,7 +34,7 @@ const ServiceTab = (props) => {
                             className={classnames({ active: activeTab === '3' })}
                             onClick={() => { toggle('3'); }}
                         >
-                            Results
+                            Резултати
                         </NavLink>
                     </NavItem>
                 </Nav>
@@ -45,20 +44,19 @@ const ServiceTab = (props) => {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <p>Samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weatherSamples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather</p>
+                            <p>Мостри от текстил лежаха разпръснати на масата - Самса беше пътуващ търговец - и над нея висеше картина, която наскоро беше изрязал от илюстровано списание и поставил в хубава, позлатена рамка. Тя показваше дама с кожена шапка и шал, която седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ към зрителя. След това Грегор се обърна към прозореца и мрачното време.</p>
                         </Col>
                     </Row>
                 </TabPane>
                 <TabPane tabId="2">
-                    <p>Collection of textile samples lay spread out on the tablehung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops</p>
+                    <p>Колекция от текстилни мостри лежеше разпръсната на масата и над нея висеше картина, която наскоро беше изрязал от илюстровано списание и поставил в хубава, позлатена рамка. Тя показваше дама с кожена шапка и шал, която седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ към зрителя. След това Грегор се обърна към прозореца и мрачното време.</p>
                 </TabPane>
                 <TabPane tabId="3">
-                    <p>Collection of textile samples lay spread salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops</p>
+                    <p>Колекция от текстилни мостри лежеше разпръсната на масата - Самса беше пътуващ търговец - и над нея висеше картина, която наскоро беше изрязал от илюстровано списание и поставил в хубава, позлатена рамка. Тя показваше дама с кожена шапка и шал, която седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ към зрителя. След това Грегор се обърна към прозореца и мрачното време.</p>
                 </TabPane>
             </TabContent>
         </div>
-
     );
-}
+};
 
 export default ServiceTab;

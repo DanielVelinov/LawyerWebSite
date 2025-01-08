@@ -7,7 +7,8 @@ const PageTitle = (props) => {
                 <div className="row">
                     <div className="col col-xs-12">
                         <h2>{props.pageTitle}</h2>
-                        <p>Gregor then turned to look out the window at the weather</p>
+                        <p>За да се свържете с нас за насрочване на дата и час за консултация по Ваш правен проблем
+                        използвайте посочените координати за контакт или ни пишете чрез контактната форма.</p>
                     </div>
                 </div>
             </div>

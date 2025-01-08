@@ -1,10 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Cases from '../../api/case';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 const settings = {
     dots: false,
@@ -59,13 +58,11 @@ const settings = {
     ]
 };
 
-
 const CaseStudies = (props) => {
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
-    }
-
+    };
 
     return (
         <section className={`case-studies-section section-padding ${props.cClass}`}>
@@ -76,9 +73,9 @@ const CaseStudies = (props) => {
                             <div className="icon">
                                 <i className="fi flaticon-suitcase"></i>
                             </div>
-                            <span>Here Our Best Work</span>
-                            <h2>Recent Case Studies</h2>
-                            <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sit amet adipiscing</p>
+                            <span>Нашите най-добри проекти</span>
+                            <h2>Последни проучвания на случаи</h2>
+                            <p>Маеценас темпус, теллус егет кондиментум ронкус, сем куам семпер либеро сит амет адиписцинг.</p>
                         </div>
                     </div>
                 </div>
@@ -93,18 +90,17 @@ const CaseStudies = (props) => {
                                 </div>
                                 <div className="overlay">
                                     <div className="content">
-                                        <p className="cat">Law service</p>
+                                        <p className="cat">Правни услуги</p>
                                         <h3><Link onClick={ClickHandler} to={`/case-single/${cases.slug}`}>{cases.cTitle}</Link></h3>
                                     </div>
                                 </div>
                             </div>
                         ))}
                     </Slider>
-
                 </div>
             </div>
         </section>
     );
-}
+};
 
 export default CaseStudies;

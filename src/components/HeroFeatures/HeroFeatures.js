@@ -6,7 +6,7 @@ const HeroFeatures = (props) => {
     const featres = [
         {
             fIcon: 'flaticon-dog',
-            title: 'Family Law',
+            title: 'Семейно право',
             sub: 'Family Law plan',
         },
         {

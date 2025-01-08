@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const TheStory = (props) => {
 
@@ -11,9 +11,9 @@ const TheStory = (props) => {
                             <div className="icon">
                                 <i className="fi flaticon-suitcase"></i>
                             </div>
-                            <span>Story</span>
-                            <h2>The Story of Us</h2>
-                            <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sit amet adipiscing</p>
+                            <span>История</span>
+                            <h2>Нашата история</h2>
+                            <p>Маеценас темпус, теллус егет кондиментум ронкус, сем куам семпер либеро, седи амет адиписинг.</p>
                         </div>
                     </div>
                 </div>
@@ -24,37 +24,37 @@ const TheStory = (props) => {
                             <div className="grid grid-s1 clearfix">
                                 <div className="time-title">
                                     <h3>2011</h3>
-                                    <h4>Started The Company</h4>
+                                    <h4>Стартиране на компанията</h4>
                                 </div>
                                 <div className="details">
-                                    <p>Fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arme againg</p>
+                                    <p>Облечена с кожена шапка и шал, седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ.</p>
                                 </div>
                             </div>
                             <div className="grid grid-s2 clearfix">
                                 <div className="details">
-                                    <p>Fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arme againg</p>
+                                    <p>Облечена с кожена шапка и шал, седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ.</p>
                                 </div>
                                 <div className="time-title">
                                     <h3>2013</h3>
-                                    <h4>Reach a milestone</h4>
+                                    <h4>Постигане на важен етап</h4>
                                 </div>
                             </div>
                             <div className="grid grid-s1 clearfix">
                                 <div className="time-title">
                                     <h3>2015</h3>
-                                    <h4>Win a Big Award</h4>
+                                    <h4>Спечелване на голяма награда</h4>
                                 </div>
                                 <div className="details">
-                                    <p>Fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arme againg</p>
+                                    <p>Облечена с кожена шапка и шал, седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ.</p>
                                 </div>
                             </div>
                             <div className="grid grid-s2 clearfix">
                                 <div className="details">
-                                    <p>Fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arme againg</p>
+                                    <p>Облечена с кожена шапка и шал, седеше изправена, вдигайки тежък кожен шал, който покриваше цялата долна част на ръката ѝ.</p>
                                 </div>
                                 <div className="time-title">
                                     <h3>2017</h3>
-                                    <h4>Add a Foren Office</h4>
+                                    <h4>Добавяне на чуждестранен офис</h4>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const TheStory = (props) => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default TheStory;

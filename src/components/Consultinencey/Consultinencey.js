@@ -10,23 +10,23 @@ const Consultinencey = (props) => {
                         <ul>
                             <li>
                                 <i className="fi flaticon-home-3"></i>
-                                <h4>Head Office</h4>
-                                <p>54, Dahs udin sorok, Melborn Austria</p>
+                                <h4>Адрес</h4>
+                                <p>България, обл. София, общ. София, 1000 гр. София, бул. "Витоша" №43, ет. 3, ап. 1.</p>
                             </li>
                             <li>
                                 <i className="fi flaticon-email"></i>
-                                <h4>Email Address</h4>
-                                <p>demo@example.com</p>
+                                <h4>Email</h4>
+                                <p>ekaterinadimitrova@gmail.com</p>
                             </li>
                             <li>
                                 <i className="fi flaticon-support"></i>
-                                <h4>Telephone</h4>
-                                <p>654756175+5474</p>
+                                <h4>Телефон</h4>
+                                <p>+3598705647</p>
                             </li>
                             <li>
                                 <i className="fi flaticon-clock"></i>
-                                <h4>Office Hour</h4>
-                                <p>Mon-Sun: 10am – 7pm</p>
+                                <h4>Работно Време</h4>
+                                <p>Пон-Съб: 10:00 – 19:00</p>
                             </li>
                         </ul>
                     </div>
@@ -37,8 +37,8 @@ const Consultinencey = (props) => {
                             <i className="fi flaticon-balance"></i>
                         </div>
                         <span>Contact form</span>
-                        <h2>Need Consultancy, <br />Request A Free Quote</h2>
-                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nuncIt showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy</p>
+                        <h2>Имате нужда от консултация, <br />поискайте безплатна оферта</h2>
+                        <p> Ако имате нужда от адвокат по конкретен правен казус, то можете да използвате формата за контакти по-долу, за да ни пишете.</p>
                     </div>
 
                     <div className="contact-form">

@@ -54,7 +54,7 @@ const AttorneySinglePage = (props) => {
                                                 <li><i className="ti-mobile"></i><span>Phone: </span>654-54851-5447</li>
                                                 <li><i className="ti-email"></i><span>Email: </span>necterbuddy@hotmail.com</li>
                                                 <li><i className="ti-timer"></i><span>Experience: </span>11 Years</li>
-                                                <li><i className="ti-location-pin"></i><span>Address: </span>45 big fella street, sweet home, Bela</li>
+                                                <li><i className="ti-location-pin"></i><span>Address: </span>София, ул.Витошка 20</li>
                                             </ul>
                                         </div>
                                         <div className="social">

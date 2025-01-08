@@ -49,7 +49,7 @@ const ContactFrom = () => {
                     className="form-control"
                     onBlur={(e) => changeHandler(e)}
                     onChange={(e) => changeHandler(e)}
-                    placeholder="Name*" />
+                    placeholder="Име*" />
                 {validator.message('name', forms.name, 'required|alpha_space')}
             </div>
             <div className="form-field">
@@ -71,7 +71,7 @@ const ContactFrom = () => {
                     className='form-control'
                     onBlur={(e) => changeHandler(e)}
                     onChange={(e) => changeHandler(e)}
-                    placeholder="Your phone" />
+                    placeholder="Телефон" />
                 {validator.message('phone', forms.phone, 'required|phone')}
             </div>
             <div className="form-field">
@@ -99,12 +99,12 @@ const ContactFrom = () => {
                     type="text"
                     name="message"
                     className='form-control'
-                    placeholder="Case Description...">
+                    placeholder="Описание на случая...">
                 </textarea>
                 {validator.message('message', forms.message, 'required')}
             </div>
             <div className="submit-area">
-                <button type="submit" className="theme-btn-s3">Submit It Now</button>
+                <button type="submit" className="theme-btn-s3">Изпрати</button>
             </div>
         </form>
     )

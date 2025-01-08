@@ -1,13 +1,13 @@
-import React from 'react'
-import abimg from '../../images/about.jpg'
-import signature from '../../images/signature.png'
+import React from 'react';
+import abimg from '../../images/about.jpg';
+import signature from '../../images/signature.png';
 import { Link } from 'react-router-dom';
 
 const About = (props) => {
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
-    }
+    };
 
     return (
         <section className="about-section section-padding">
@@ -19,10 +19,10 @@ const About = (props) => {
                                 <div className="icon">
                                     <i className="fi flaticon-home-3"></i>
                                 </div>
-                                <span>About Ekaterina Dimitrova</span>
-                                <h2>We are the most populer law firm with various law services!</h2>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum</p>
-                                <Link onClick={ClickHandler} to="/about" className="more-about">Read More About us <i className="fi flaticon-next-1"></i></Link>
+                                <span>За Екатерина Димитрова</span>
+                                <h2>Ние сме най-популярната адвокатска кантора с разнообразни правни услуги!</h2>
+                                <p>Маеценас темпус, теллус егет кондиментум ронкус, сем куам семпер либеро, седи амет адиписинг сем некве сед ипсум.</p>
+                                <Link onClick={ClickHandler} to="/about" className="more-about">Прочетете повече за нас <i className="fi flaticon-next-1"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,10 @@ const About = (props) => {
                     </div>
                     <div className="col col-lg-4 col-12">
                         <div className="right-col">
-                            <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien libero</p>
+                            <p>Маеценас темпус, теллус егет кондиментум ронкус, сем куам семпер либеро, седи амет адиписинг сем некве сед ипсум. Нам куам нунк, бландит вел, луксус пулвинар, хендрит ид, лорем. Маеценас нек одио ет анте тинцидунт темпус. Донец витае сапиен либеро.</p>
                             <div className="quoter">
-                                <h4>Michel Jhon</h4>
-                                <span>- CEO of the company</span>
+                                <h4>Мишел Джон</h4>
+                                <span>- Изпълнителен директор на компанията</span>
                             </div>
                             <div className="signature">
                                 <img src={signature} alt="" />
@@ -46,7 +46,7 @@ const About = (props) => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default About;
