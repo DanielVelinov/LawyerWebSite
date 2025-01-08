@@ -1,19 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Logo from '../../images/footer-logo.png'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../../images/footer-logo.png';
 import Practices from '../../api/Practices';
-
-
 
 const Footer = (props) => {
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
-    }
+    };
 
     const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
+        e.preventDefault();
+    };
 
     return (
         <footer className="site-footer">
@@ -35,10 +33,10 @@ const Footer = (props) => {
                                 </div>
                                 <div className="newsletter-area">
                                     <div className="inner">
-                                        <h3>Newsletter</h3>
+                                        <h3>Абонамент за бюлетин</h3>
                                         <form onSubmit={SubmitHandler}>
                                             <div className="input-1">
-                                                <input type="email" className="form-control" placeholder="Email Address *" required="" />
+                                                <input type="email" className="form-control" placeholder="Имейл адрес *" required="" />
                                             </div>
                                             <div className="submit clearfix">
                                                 <button type="submit"><i className="fi flaticon-paper-plane"></i></button>
@@ -57,47 +55,47 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="widget-title">
-                                    <h3>About us</h3>
+                                    <h3>За нас</h3>
                                 </div>
-                                <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm</p>
+                                <p>Екатерина Димитрова е юрист с повече от 20 годишен стаж, представлявала е едни от най- известните хора в държавата, два пъти е била Адвокат на годината и два пъти – носител на приза Адвокат в медиите, който се връчва за най-много спечелени медийни дела.</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget contact-widget service-link-widget">
                                 <div className="widget-title">
-                                    <h3>Our Address</h3>
+                                    <h3>Нашият адрес</h3>
                                 </div>
                                 <ul>
-                                    <li>45/15 New alsala Avenew Booston town, Austria</li>
-                                    <li><span>Phone:</span> 84667441</li>
-                                    <li><span>Email:</span> demo@example.com</li>
-                                    <li><span>Office Time:</span> 10AM- 5PM</li>
+                                    <li>4България, обл. София, общ. София, 1000 гр. София, бул. "Витоша" №43, ет. 3, ап. 1.</li>
+                                    <li><span>Телефон:</span> +359888705647</li>
+                                    <li><span>Имейл:</span> ekaterina_dimitrova@gbg.bg</li>
+                                    <li><span>Работно време:</span> 10:00 - 17:00</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>Usefull Links</h3>
+                                    <h3>Полезни връзки</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/services">Our services</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/team">Meet team</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/about">За нас</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/services">Нашите услуги</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Контакт с нас</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/team">Екипът</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/contact">Provacu Policy</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/testimonials">Testimonials</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog">News</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/faq">FAQ</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Политика за поверителност</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/testimonials">Отзиви</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/blog">Новини</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/faq">ЧЗВ</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget link-widget line-widget-2">
                                 <div className="widget-title">
-                                    <h3>Practice Area</h3>
+                                    <h3>Области на практика</h3>
                                 </div>
                                 <ul>
                                     {Practices.slice(0, 4).map((practice, Sitem) => (
@@ -114,13 +112,13 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="separator"></div>
                         <div className="col col-xs-12">
-                            <p className="copyright">Copyright &copy; 2025 Ekaterina Dimitrova. All rights reserved.</p>
+                            <p className="copyright">Авторско право &copy; 2025 Екатерина Димитрова. Всички права запазени.</p>
                             <div className="extra-link">
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/contact">Privace & Policy</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Terms</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/faq">FAQ</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Политика за поверителност</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Условия</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/about">За нас</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/faq">ЧЗВ</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -128,7 +126,7 @@ const Footer = (props) => {
                 </div>
             </div>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;
