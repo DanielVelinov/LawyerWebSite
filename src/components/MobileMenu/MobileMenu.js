@@ -62,33 +62,7 @@ const menus = [
             },
         ]
     },
-    {
-        id: 4,
-        title: 'Shop',
-        link: '/shop',
-        submenu: [
-            {
-                id: 41,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 42,
-                title: 'Shop Single',
-                link: '/product-single/Ninja-Hoodi'
-            },
-            {
-                id: 43,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 44,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-        ]
-    },
+
 
     {
         id: 6,

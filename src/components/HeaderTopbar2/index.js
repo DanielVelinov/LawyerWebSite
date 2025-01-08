@@ -10,9 +10,9 @@ const HeaderTopbar2 = (props) => {
                     <div className="col col-lg-10 col-12">
                         <div className="contact-info">
                             <ul className="clearfix">
-                                <li><i className="ti-mobile"></i> +3245-354-6474</li>
-                                <li><i className="ti-email"></i> ekaterinadimitrova@gmail.com</li>
-                                <li><i className="ti-location-pin"></i> 324 Modern Ave, Sacramento, MD 92347, Austria</li>
+                                <li><i className="ti-mobile"></i> +359888705647</li>
+                                <li><i className="ti-email"></i> ekaterina_dimitrova@gbg.bg</li>
+                                <li><i className="ti-location-pin"></i> България, обл. София, общ. София, 1000 гр. София, бул. "Витоша" №43, ет. 3, ап. 1.</li>
                             </ul>
                         </div>
                     </div>

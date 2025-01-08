@@ -10,9 +10,9 @@ const HeaderTopbar = (props) => {
                     <div className="col col-lg-10 col-12">
                         <div className="contact-info">
                             <ul className="clearfix">
-                                <li><span>Call Us:</span> 548978478</li>
-                                <li><span>Email us:</span> demo@example.com</li>
-                                <li><span>Our address:</span> 45 Dreem street Austria</li>
+                                <li><span>Call Us:</span> +359888705647</li>
+                                <li><span>Email us:</span> ekaterina_dimitrova@gbg.bg</li>
+                                <li><span>Our address:</span> България, обл. София, общ. София, 1000 гр. София, бул. "Витоша" №43, ет. 3, ап. 1.</li>
                             </ul>
                         </div>
                     </div>

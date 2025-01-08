@@ -14,11 +14,7 @@ import CaseSinglePage from '../CaseSinglePage/CaseSinglePage';
 import AttorneySinglePage from '../AttorneySinglePage/AttorneySinglePage';
 import CasePage from '../CasePage/CasePage';
 import CasePageS2 from '../CasePageS2/CasePageS2';
-import ShopPage from '../ShopPage'
-import ProductSinglePage from '../ProductSinglePage';
-import CartPage from '../CartPage';
-import CheckoutPage from '../CheckoutPage';
-import OrderRecived from '../OrderRecived';
+
 import BlogPage from '../BlogPage/BlogPage'
 import BlogPageLeft from '../BlogPageLeft/BlogPageLeft'
 import BlogPageFullwidth from '../BlogPageFullwidth/BlogPageFullwidth'
@@ -50,11 +46,7 @@ const AllRoute = () => {
           <Route path="testimonials" element={<TestimonialPage />} />
           <Route path="testimonials-s2" element={<TestimonialPage2 />} />
           <Route path="faq" element={<FaqPage />} />
-          <Route path="shop" element={<ShopPage />} />
-          <Route path='product-single/:slug' element={<ProductSinglePage/>} />
-          <Route path='cart' element={<CartPage/>} />
-          <Route path='checkout' element={<CheckoutPage/>} />
-          <Route path='order_received' element={<OrderRecived/>} />
+  
           <Route path='blog' element={<BlogPage />} />
           <Route path='blog-left-sidebar' element={<BlogPageLeft />} />
           <Route path='blog-fullwidth' element={<BlogPageFullwidth />} />
