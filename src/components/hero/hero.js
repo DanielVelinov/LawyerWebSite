@@ -29,14 +29,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
                         <div className="container">
                             <div data-swiper-parallax="300" className="slide-title">
-                                <h2>Our Independence Makes the Difference</h2>
+                                <h2>Вашият интерес е наш приоритет и можем да го защитим.</h2>
                             </div>
                             <div data-swiper-parallax="400" className="slide-text">
-                                <p>Nationally Established. Internationally Recognized</p>
+                                <p>Доверете ни се!</p>
                             </div>
                             <div className="clearfix"></div>
                             <div data-swiper-parallax="500" className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Free Consultation</Link>
+                                <Link to="/contact" className="theme-btn">Консултация</Link>
                             </div>
                             <div className="video-btns">
                                 <VideoModal />
@@ -48,14 +48,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
                         <div className="container">
                             <div data-swiper-parallax="300" className="slide-title">
-                                <h2>Our Independence Makes the Difference</h2>
+                                <h2>Вашият интерес е наш приоритет и можем да го защитим.</h2>
                             </div>
                             <div data-swiper-parallax="400" className="slide-text">
-                                <p>Nationally Established. Internationally Recognized</p>
+                                <p>Доверете ни се!</p>
                             </div>
                             <div className="clearfix"></div>
                             <div data-swiper-parallax="500" className="slide-btns">
-                                <Link to="/contact" className="theme-btn">Free Consultation</Link>
+                                <Link to="/contact" className="theme-btn">Консултация</Link>
                             </div>
                             <div className="video-btns">
                                 <VideoModal />

@@ -9,7 +9,7 @@ const Hero3 = () => {
                 <div className="hero-inner">
                     <div className="container">
                         <div className="slide-title">
-                            <h2>Our Independence Makes the Difference</h2>
+                            <h2>Вашият интерес е наш приоритет и можем да го защитим.</h2>
                         </div>
                         <div className="slide-text">
                             <p>Nationally Established. Internationally Recognized</p>
